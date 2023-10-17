@@ -1,4 +1,4 @@
-- name: Create a folder
+- name: Create a jenkins job using basic authentication
   community.general.jenkins_job:
     config: "{{ lookup('file', 'templates/s-pipeline.xml') }}"
     name: test
